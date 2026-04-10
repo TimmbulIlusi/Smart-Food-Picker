@@ -15,7 +15,7 @@ if st.button("Dapatkan Rekomendasi"):
     if budget < 5000:
         st.error("❌ Budget terlalu kecil! Tidak cukup untuk membeli bahan makanan, minimal goceng lah")
     
-  else:
+    else:
         st.info("🔍 Menganalisis kebutuhan nutrisi dan budget Anda...")
         st.success("💡 Pilihan yang tersedia untuk Anda:")
 
